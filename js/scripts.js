@@ -5,7 +5,7 @@ function special(numbers) {
   var roman = [];
   var parsedNumber = parseInt(numbers.join(''));
   if ((parsedNumber) > 3999) {
-      alert("Too high");
+      // alert("Too high");
       return false;
     } else if (parsedNumber === 1) {
         roman.push("I");

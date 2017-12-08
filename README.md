@@ -10,17 +10,17 @@ _This is an HTML page that uses JavaScript to convert a number to a Roman numera
 
 
 ### Specs
-| Spec | Input | Output |
-| :-------------     | :------------- | :------------- |
-| **Program gathers user input** |  "hello world" |  "hello world" |
-| **Program ignores letters in input** | 3a  | 3  |
-| **Program can return numbers between 1 and 3,999** | 4000 | false |
-| **Program can return "special case" Roman numerals** |  "9" |  "IX" |
-| **Program can return 1-9 in Roman numerals** | "5" | "V" |
-| **Program can return 10-99 in Roman numerals**| "10" | "X" |
-| **Program can return 100-999 in Roman numerals** | "500" | "D" |
-| **Program can return 1000-3999 in Roman numerals** | "1000" | "M" |
-
+| Behavior | Input | Output |
+| :-------------     | :------------- | :-------------
+| **Translates number 1 to Roman numeral** | "1" | "I" |
+| **Translates number 2 to Roman numerals**| "2" | "II" |
+| **Translates number 5 to Roman numerals** | "5" | "V" |
+| **Translates number 4 to Roman numerals** | "4" | "IV" |
+| **Translates number 6 to Roman numerals** | "6" | "VI" |
+| **Translates number 10 to Roman numerals** | "10" | "X" |
+| **Translates number 11 to Roman numerals** | "11" | "X" |
+| **Translates number 100 to Roman numerals** | "100" | "C" |
+| **Translates number 1000 to Roman numerals** | "1000" | "M" |
 
 ## Setup/Installation Requirements
 
